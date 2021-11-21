@@ -82,7 +82,7 @@ public class PlayerCharacter {
     }
 
     public void calculateAttackSpeed() {
-        this.attackSpeed = 5 + Math.log(attrAgility) * 0.75; //the logarithm of the attribute gives us diminishing returns to more Agi points in the late game
+        this.attackSpeed = 5 + Math.log(attrAgility) * 0.75; //log() gives us a very nice curve that supports diminishing returns in the late game from more Agility
     }
 
 
