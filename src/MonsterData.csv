@@ -1,0 +1,10 @@
+Enemy Type,Enemy Class,HP,Attack rating,Def rating,Base dmg
+Skeleton Warrior,Undead,20,50,50,10
+Skeleton Archer,Undead,20,80,20,10
+Skeleton Mage,Undead,20,0,20,0
+Goblin Warrior,Living,30,60,60,10
+Goblin Archer,Living,30,80,20,10
+Satyr Warrior,Demon,50,100,100,20
+Satyr Mage,Demon,50,0,60,20
+Winged Demon,Demon,150,200,200,30
+Fire Demon,Demon,200,150,250,30
