@@ -11,6 +11,8 @@ public class Main {
         //initialize hero and world cell
 
 
+        //savegame
+
 //        Enemy newEnemy = enemyBuilder("Skeleton Warrior");
         Enemy newSkeleton = enemyBuilder("Skeleton Mage", "Undead");
 
@@ -58,3 +60,9 @@ public class Main {
     }
 }
 
+//menu, choose hero
+//create new hero
+//put hero in last location
+//populate location
+//2d-array based code for movement
+//

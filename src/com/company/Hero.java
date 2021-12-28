@@ -50,7 +50,7 @@ public class Hero {
 
     public void setName(String name) {
         //not empty, max 13 chars
-        if(name.isBlank() || name.length()>13){
+        if (name.isBlank() || name.length() > 13) {
             throw new IllegalArgumentException("Invalid character name");
         }
         this.name = name;
@@ -176,10 +176,6 @@ public class Hero {
         this.inventory = inventory;
     }
 
-    //=============================
-//    //===all getters and setters===
-    //=============================
-
     public int getTotalDefense() {
         int totalDefense = 0;
         totalDefense += (
@@ -199,5 +195,10 @@ public class Hero {
                         this.getWeapon().getDamage());
         return totalDamage;
     }
+
+    //=============================
+    //===========other=============
+    //=============================
+
 
 }
