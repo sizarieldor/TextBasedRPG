@@ -2,6 +2,7 @@ package com.company.Actors;
 
 public abstract class Actor {
     private String name;
+    //the name denotes the type of container/monster/npc, not the personal name of that individual actor
     private int hitPoints;
     private int atkRating;
     private int defRating;

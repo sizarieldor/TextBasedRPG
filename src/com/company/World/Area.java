@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Area {
+    /*
+    need to decide on area design
+    a 2d map or a linear tunnel-like structure?
+    for a 2d map the GUI will require movement controls
+    for a 1d "tunnel" design, its enough to give monsters a "distance from one end" field
+    */
     private String name;
     private int areaLevel;
     private List<Actor> actors;
